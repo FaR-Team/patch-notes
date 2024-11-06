@@ -1,3 +1,5 @@
+# Since June 4th
+
 ## FARMOXEL
 + The clock is not scene-dependant anymore
 + The bed no longer handles ending and starting the day; this is now managed by a `SleepHandler`. The bed only interacts with the `SleepHandler` and attempts to end the day, allowing the handler to always exist and be called from anywhere.

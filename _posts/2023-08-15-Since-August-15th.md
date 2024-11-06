@@ -1,3 +1,5 @@
+# Since August 15th
+
 ## FARMOXEL
 + Replaced placeholder trash bin model for a lower quality placeholder that won't burn our CPU.
 + Added a placeholder pickup sound.
