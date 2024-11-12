@@ -16,6 +16,9 @@
 + Fixed a bug that caused you to not be able to plow when reloading scenes.
 + Fixed commands losing references.
 + Fixed a few issues with the `ClockManager` and several object references in the scene.
++ Fixed a bug that allowed you to leave items on blocked slots.
++ Fixed an error when teleporting from one scene to another.
++ Changed player's starting gold.
 + Added a command to delete the saves.
 + Added post-processing (Bloom, vignette, DoF).
 + Added stars at night time.
