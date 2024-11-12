@@ -37,6 +37,7 @@
 + Improved the shader to tint depending on the light.
 + Improved chest animation timing.
 + Improved the weather system, now each season has its own possible weathers.
++ Improved player location handling for scene transitions.
 + Updated discord logging.
 + Remade part of the saveload system.
 
