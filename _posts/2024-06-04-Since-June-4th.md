@@ -19,6 +19,7 @@
 + Fixed a bug that allowed you to leave items on blocked slots.
 + Fixed an error when teleporting from one scene to another.
 + Changed player's starting gold.
++ Added `GameStateData`,`GameStateLoader`, and `GameStateSaver`.
 + Added a command to delete the saves.
 + Added post-processing (Bloom, vignette, DoF).
 + Added stars at night time.
