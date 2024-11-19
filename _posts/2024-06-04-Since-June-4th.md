@@ -29,6 +29,7 @@
 + Added a new kind of item: Special.
 + Added soundclips to Items. 
 + Added a debug menu.
++ Added global lighting to the water shader.
 + Added the new chest model + its animations.
 + Imported a couple of models.
 + Reorganized some folders and added a new song.
