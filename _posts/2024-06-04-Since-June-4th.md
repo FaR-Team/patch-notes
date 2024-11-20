@@ -47,6 +47,7 @@
 + Improved player location handling for scene transitions.
 + Updated discord logging.
 + Remade part of the saveload system.
++ Remade the Options Menu's backend.
 
 ## ROOM MAKERS
 + Corrected doors price location.
