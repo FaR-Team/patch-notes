@@ -6,6 +6,8 @@
 + Adjusted all references to the bed to point to the `SleepHandler` (currently, the component is located in the `GameManager`).
 + The `SleepHandler` checks if it's 2 AM or 6 AM to sleep or wake up, using the functions `FinishDay` and `StartDay`. If it's 2 AM and you're already sleeping, it skips.
 + The bed had many references to components, objects, and dependencies; now, several of these are events triggered when sleeping or waking up.
++ Now the game saved after sleeping.
++ Cleaned up some debugging code.
 + Fixed the bug that caused carrots to duplicate when loading.
 + Fixed bugs left from last week.
 + Fixed weird lines on shader when reloading the scene.
@@ -18,8 +20,10 @@
 + Fixed a few issues with the `ClockManager` and several object references in the scene.
 + Fixed a bug that allowed you to leave items on blocked slots.
 + Fixed an error when teleporting from one scene to another.
++ Fixed the save and load of each scene's last datetime.
 + Changed player's starting gold.
 + Added `GameStateData`,`GameStateLoader`, and `GameStateSaver`.
++ Added catching up when the player has slept for multiple days without going to the farm.
 + Added a command to delete the saves.
 + Added post-processing (Bloom, vignette, DoF).
 + Added stars at night time.
@@ -31,6 +35,7 @@
 + Added a debug menu.
 + Added global lighting to the water shader.
 + Added the new chest model + its animations.
++ Added back the date to the clock.
 + Imported a couple of models.
 + Reorganized some folders and added a new song.
 + Improved some aspects of the `MusicManager` so that when we use it properly, it works better, as well as the volume slider (I think it works better since it’s somewhat logarithmic, but I didn’t notice much difference lol).
