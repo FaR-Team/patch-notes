@@ -20,6 +20,7 @@
 + Fixed a few issues with the `ClockManager` and several object references in the scene.
 + Fixed a bug that allowed you to leave items on blocked slots.
 + Fixed an error when teleporting from one scene to another.
++ Fixed a bug that caused the user to plant two trees at once.
 + Fixed the save and load of each scene's last datetime.
 + Changed player's starting gold.
 + Added `GameStateData`,`GameStateLoader`, and `GameStateSaver`.
@@ -48,6 +49,7 @@
 + Updated discord logging.
 + Remade part of the saveload system.
 + Remade the Options Menu's backend.
++ Replaced the housse's model.
 
 ## ROOM MAKERS
 + Corrected doors price location.
