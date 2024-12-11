@@ -32,11 +32,12 @@
 + Added a functional skill tree, for now it's accessed with H.
 + Added a (Demo-use-only) skill fruit.
 + Added a new kind of item: Special.
-+ Added soundclips to Items. 
++ Added soundclips to Items.
 + Added a debug menu.
 + Added global lighting to the water shader.
 + Added the new chest model + its animations.
 + Added back the date to the clock.
++ Added a command for testers to export their logs and saves.
 + Imported a couple of models.
 + Reorganized some folders and added a new song.
 + Improved some aspects of the `MusicManager` so that when we use it properly, it works better, as well as the volume slider (I think it works better since it’s somewhat logarithmic, but I didn’t notice much difference lol).
@@ -46,6 +47,7 @@
 + Improved chest animation timing.
 + Improved the weather system, now each season has its own possible weathers.
 + Improved player location handling for scene transitions.
++ Improved player's gravity. (They were defying it.)
 + Updated discord logging.
 + Remade part of the saveload system.
 + Remade the Options Menu's backend.
@@ -58,7 +60,7 @@
 + Startup parity.
 + Reduced the timer to half.
 + Added a reminder for players that don't read the tutorial.
-+ Added a "Coming soon on google play" sign to the main menu.
++ Added a "Coming soon on google play" sign to the main menu. (Hand made by our best programmer, ofc, pinky promise i'm not biased)
 + Added flicking when there's only 30 seconds left in the timer.
 + Fixed the location of the combo popup.
 + Fixed a bug where the Coming soon sign would appear over the controls.
