@@ -38,6 +38,8 @@
 + Added the new chest model + its animations.
 + Added back the date to the clock.
 + Added a command for testers to export their logs and saves.
++ Added F1 to toggle the UI.
++ Added F2 to take screenshots.
 + Imported a couple of models.
 + Reorganized some folders and added a new song.
 + Improved some aspects of the `MusicManager` so that when we use it properly, it works better, as well as the volume slider (I think it works better since it’s somewhat logarithmic, but I didn’t notice much difference lol).
@@ -51,6 +53,7 @@
 + Updated discord logging.
 + Remade part of the saveload system.
 + Remade the Options Menu's backend.
++ Remade the Outline implementation, now it's tied to our shader.
 + Replaced the housse's model.
 
 ## ROOM MAKERS
