@@ -7,13 +7,19 @@
 + Fixed a bug that caused dirt overlapping.
 + Fixed a bug where plants wouldn't save and load their dead state properly.
 + Fixed a bug where it subtracted items without selling them.
++ Fixed a bug on the apple's OnEnable.
++ Fixed a bug where you could still harvest the apples and carrot when they were dead.
 + Fixed mass selling with control.
++ Fixed the name display for tools.
 + Added a catch up for the sell system.
 + Added a command to make the tick rate configurable.
 + Added functionality for crops to die and rot.
 + Added a multiply texture to the shader to use when the crops rot.
 + Added a loading screen.
++ Added a collider to the carrot's sell box.
++ Added functionality on our logger, now we can individually toggle the logs of each script using the in-game console.
 + Refactored scene loading to use a loading manager.
 + Refactored the sell system.
++ Changed the water shader a bunch.
 + Now the Gold UI updates using an event.
 + Removed popibrine.
