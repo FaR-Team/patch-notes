@@ -1,7 +1,8 @@
 # Since December 18th
 
 ## FARMOXEL
-+ Fixed a weird issue caused by the new outline, that made every backface have it alpha replaced by the outline color
++ Fixed a weird issue caused by the new outline, that made every backface have it alpha replaced by the outline color.
++ Fixed a bug where the user could subtract items they didn't have in the basket from the basket, giving them a negative "bonus" of cash to use.
 + Fixed the explosion's materials.
 + Fixed a bug that caused the game not to recognize a change of day if the user blacked out.
 + Fixed a bug that caused dirt overlapping.
@@ -18,8 +19,11 @@
 + Added a loading screen.
 + Added a collider to the carrot's sell box.
 + Added functionality on our logger, now we can individually toggle the logs of each script using the in-game console.
++ Added an in-game file manager from github to replace an issue caused by EditorUtility (https://github.com/yasirkula/UnitySimpleFileBrowser)
 + Refactored scene loading to use a loading manager.
 + Refactored the sell system.
 + Changed the water shader a bunch.
++ We made an editor extension to make the process of adding new crops easier, altho it still needs further work to be fully automated.
 + Now the Gold UI updates using an event.
++ Moved a bit the house's spawn points.
 + Removed popibrine.
