@@ -10,6 +10,8 @@
 + Fixed a bug where it subtracted items without selling them.
 + Fixed a bug on the apple's OnEnable.
 + Fixed a bug where you could still harvest the apples and carrot when they were dead.
++ Fixed a bug where using the multiplier while buying it would add the items no problem, but only remove 1, while removing the correct amount of money.
++ Fixed a bug where the game could add items to locked slots in your backpack.
 + Fixed mass selling with control.
 + Fixed the name display for tools.
 + Added a catch up for the sell system.
