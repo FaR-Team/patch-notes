@@ -12,7 +12,8 @@
 + Fixed a bug where you could still harvest the apples and carrot when they were dead.
 + Fixed a bug where using the multiplier while buying it would add the items no problem, but only remove 1, while removing the correct amount of money.
 + Fixed a bug where the game could add items to locked slots in your backpack.
-+ Fixed a bug where the player's inventory would override itself internally when coming back to the main scene, causing several issues
++ Fixed a bug where the player's inventory would override itself internally when coming back to the main scene, causing several issues.
++ Fixed the grid ghost disappearing instead of turning red when you couldn't place something.
 + Fixed mass selling with control.
 + Fixed the name display for tools.
 + Fixed carrot animations.
