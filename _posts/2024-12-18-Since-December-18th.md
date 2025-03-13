@@ -13,6 +13,7 @@
 + Fixed a bug where using the multiplier while buying it would add the items no problem, but only remove 1, while removing the correct amount of money.
 + Fixed a bug where the game could add items to locked slots in your backpack.
 + Fixed a bug where the player's inventory would override itself internally when coming back to the main scene, causing several issues.
++ Fixed a bug where the apples would fall through the ground.
 + Fixed the grid ghost disappearing instead of turning red when you couldn't place something.
 + Fixed mass selling with control.
 + Fixed the name display for tools.
@@ -32,11 +33,13 @@
 + Refactored the sell system.
 + Refactored the sound system.
 + Changed the water shader a bunch.
++ Changed the compression of the project to avoid weird looking models.
 + Modified HurryPotter command.
 + Modified DeleteSavve Command.
 + Updated House's Texture and Model.
 + Updated Beet's textures.
 + Updated the interactor, now you interact with right click.
++ Updated how the sensitivity workd, now using whole numbers in the UI.
 + We made an editor extension to make the process of adding new crops easier, altho it still needs further work to be fully automated.
 + Now the Gold UI updates using an event.
 + Moved a bit the house's spawn points.
