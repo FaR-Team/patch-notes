@@ -18,17 +18,20 @@
 + Fixed mass selling with control.
 + Fixed the name display for tools.
 + Fixed carrot animations.
++ Fixed a bug that caused "bluetooth" watering of crops.
 + Added a catch up for the sell system.
 + Added a command to make the tick rate configurable.
 + Added functionality for crops to die and rot.
 + Added a multiply texture to the shader to use when the crops rot.
 + Added a loading screen.
 + Added Apple Tree Models.
++ Added an animation for harvesting the apple tree.
 + Added a collider to the carrot's sell box.
 + Added a submenu in options for audio sliders.
 + Added idle animation for the Beet.
 + Added functionality on our logger, now we can individually toggle the logs of each script using the in-game console.
 + Added an in-game file manager from github to replace an issue caused by EditorUtility (https://github.com/yasirkula/UnitySimpleFileBrowser)
++ Added saving for the "Player Stats" (This includes most of the data from the skill tree).
 + Refactored scene loading to use a loading manager.
 + Refactored the sell system.
 + Refactored the sound system.
@@ -36,6 +39,7 @@
 + Changed the compression of the project to avoid weird looking models.
 + Modified HurryPotter command.
 + Modified DeleteSavve Command.
++ Modified the debug menu interface.
 + Updated House's Texture and Model.
 + Updated Beet's textures.
 + Updated the interactor, now you interact with right click.
