@@ -25,7 +25,11 @@
 + Added a multiply texture to the shader to use when the crops rot.
 + Added a loading screen.
 + Added Apple Tree Models.
++ Added Water Bucket Model.
++ Added Hoe Model.
 + Added an animation for harvesting the apple tree.
++ Added an animation for the "Tree Harvesting Basket" and implemented it with the tree's animation.
++ Added the Hoe's animation when using the hoe.
 + Added a collider to the carrot's sell box.
 + Added a submenu in options for audio sliders.
 + Added idle animation for the Beet.
