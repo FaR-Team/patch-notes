@@ -2,4 +2,4 @@
 layout: home
 ---
 
-# Devlog bullet-point list
+# Devlog Patch Notes
