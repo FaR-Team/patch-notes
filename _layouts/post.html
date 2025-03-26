@@ -2,28 +2,32 @@
 layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+<article class="patch-notes" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="patch-header">
+    <div class="version-badge">{{ page.version | default: "v1.0.0" }}</div>
+    <h1 class="patch-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="patch-meta">
+      <time class="release-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        Released: {{ page.date | date: date_format }}
       </time>
-      {% assign author = page.author | default: site.author %}
-      {%- if author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-      {%- endif -%}</p>
+      {% if page.build_number %}
+      <span class="build-number">Build: {{ page.build_number }}</span>
+      {% endif %}
+    </div>
   </header>
 
   <div class="share-links">
     {% include sharelinks.html %}
   </div>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="patch-content" itemprop="articleBody">
     {{ content }}
+  </div>
+
+  <div class="patch-navigation">
     {% include navlinks.html %}
   </div>
 
