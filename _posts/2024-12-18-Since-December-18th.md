@@ -29,6 +29,7 @@
 + Added Hoe Model.
 + Added an animation for harvesting the apple tree.
 + Added an animation for the "Tree Harvesting Basket" and implemented it with the tree's animation.
++ Added an animation for when the dirt is initially plowed.
 + Added the Hoe's animation when using the hoe.
 + Added a collider to the carrot's sell box.
 + Added a submenu in options for audio sliders.
@@ -41,6 +42,7 @@
 + Refactored the sound system.
 + Changed the water shader a bunch.
 + Changed the compression of the project to avoid weird looking models.
++ Changed how the shovel works, now you can actually get rid of dirt by using it.
 + Modified HurryPotter command.
 + Modified DeleteSavve Command.
 + Modified the debug menu interface.
