@@ -54,3 +54,12 @@
 + Now the Gold UI updates using an event.
 + Moved a bit the house's spawn points.
 + Removed popibrine.
+
+## Room Makers
++ Balanced room's prices.
++ Gym furniture set.
++ Fixed a transition bug.
++ Fixed the probabilities of the 1%.
++ Localization depending on the device's language.
++ Now objects shake a bit when you can't place them.
++ You can now put multiple top objects over a single object.
