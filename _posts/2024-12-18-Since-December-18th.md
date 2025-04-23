@@ -56,9 +56,12 @@
 + Removed popibrine.
 
 ## Room Makers
+
 + Added the tag system, together with little icon indicators for the current room's tag.
++ Added the labeler, an item to change the current room's tag, together with its UI.
 + Added some feedback for the minimap. ("Map" text at the side, as placeholder, and blinking to the current room).
 + Added a popup that says Room Match! when you match the room's tag.
++ Added the ability to only place certain items next to walls.
 + Balanced room's prices.
 + Balanced scoring in general.
 + Gym furniture set.
@@ -68,4 +71,5 @@
 + Localization depending on the device's language.
 + Now objects shake a bit when you can't place them.
 + You can now put multiple top objects over a single Bottom object.
-+ We made a tool to import and export the objects list as a csv for easier modifying.
++ We made a tool to import and export the objects list as a csv for easier modifying. (And a webapp!)
++ Revamped the spawn system, now using probabilities per tag.
