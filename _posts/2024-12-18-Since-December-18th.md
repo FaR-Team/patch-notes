@@ -61,6 +61,7 @@
 + Added the labeler, an item to change the current room's tag, together with its UI.
 + Added some feedback for the minimap. ("Map" text at the side, as placeholder, and blinking to the current room).
 + Added a popup that says Room Match! when you match the room's tag.
++ Added shops!
 + Added the ability to only place certain items next to walls.
 + Balanced room's prices.
 + Balanced scoring in general.
@@ -73,3 +74,4 @@
 + You can now put multiple top objects over a single Bottom object.
 + We made a tool to import and export the objects list as a csv for easier modifying. (And a webapp!)
 + Revamped the spawn system, now using probabilities per tag.
++ Redone how the items work, an entire under the hood change.
