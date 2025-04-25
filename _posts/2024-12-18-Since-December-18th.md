@@ -59,6 +59,7 @@
 
 + Added the tag system, together with little icon indicators for the current room's tag.
 + Added the labeler, an item to change the current room's tag, together with its UI.
++ Added a sledgehammer, used to destroy and open locked doors
 + Added some feedback for the minimap. ("Map" text at the side, as placeholder, and blinking to the current room).
 + Added a popup that says Room Match! when you match the room's tag.
 + Added shops!
