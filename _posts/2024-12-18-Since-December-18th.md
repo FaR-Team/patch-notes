@@ -37,6 +37,7 @@
 + Added functionality on our logger, now we can individually toggle the logs of each script using the in-game console.
 + Added an in-game file manager from github to replace an issue caused by EditorUtility (https://github.com/yasirkula/UnitySimpleFileBrowser)
 + Added saving for the "Player Stats" (This includes most of the data from the skill tree).
++ Added non-intrusive ads! (Yeah, we have to eat too, yk?).
 + Refactored scene loading to use a loading manager.
 + Refactored the sell system.
 + Refactored the sound system.
