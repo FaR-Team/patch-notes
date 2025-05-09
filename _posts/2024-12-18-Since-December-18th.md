@@ -64,15 +64,30 @@
 + Added a popup that says Room Match! when you match the room's tag.
 + Added shops!
 + Added the ability to only place certain items next to walls.
++ Added a debug menu for the testing phase.
++ Added around 20 new items!
++ Added 3x1 furnitures to the system.
++ Added a "music tension" system.
++ Added the ability to place a little piece of tape over the speaker, muffling the sound.
++ Changed the gameplay music! Now we have three tracks that can loop up to three times each!
 + Balanced room's prices.
 + Balanced scoring in general.
 + Gym furniture set.
 + Fixed a transition bug.
 + Fixed a tutorial UI bug, there was an incorrect exclamation sign.
 + Fixed the probabilities of the 1%.
++ Fixed a bug occasionated by using the labeler in the shop.
++ Fixed the shop's rug colission.
++ Fixed a bug where the furniture would change languages when picking it back up.
++ Fixed a movement animation bug, the player would keep walking when you were in edit mode in some occasions.
 + Localization depending on the device's language.
 + Now objects shake a bit when you can't place them.
 + You can now put multiple top objects over a single Bottom object.
-+ We made a tool to import and export the objects list as a csv for easier modifying. (And a webapp!)
++ We made a tool to import and export the objects list as a csv for easier modifying.
++ We made a tool to create new furnitures easily.
++ We made an entire devtool webfront with:
+  + An editor for the objects list, and their specifics (Price, Name, etc).
+  + An editor for the probabilities per tag, also using an csv file.
+  + A tool to create and edit 4-color palettes.
 + Revamped the spawn system, now using probabilities per tag.
 + Redone how the items work, an entire under the hood change.
