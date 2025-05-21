@@ -1,6 +1,7 @@
 # Since December 18th
 
 ## FARMOXEL
+
 + Fixed a weird issue caused by the new outline, that made every backface have it alpha replaced by the outline color.
 + Fixed a bug where the user could subtract items they didn't have in the basket from the basket, giving them a negative "bonus" of cash to use.
 + Fixed the explosion's materials.
@@ -37,7 +38,6 @@
 + Added functionality on our logger, now we can individually toggle the logs of each script using the in-game console.
 + Added an in-game file manager from github to replace an issue caused by EditorUtility (https://github.com/yasirkula/UnitySimpleFileBrowser)
 + Added saving for the "Player Stats" (This includes most of the data from the skill tree).
-+ Added non-intrusive ads! (Yeah, we have to eat too, yk?).
 + Refactored scene loading to use a loading manager.
 + Refactored the sell system.
 + Refactored the sound system.
@@ -45,7 +45,7 @@
 + Changed the compression of the project to avoid weird looking models.
 + Changed how the shovel works, now you can actually get rid of dirt by using it.
 + Modified HurryPotter command.
-+ Modified DeleteSavve Command.
++ Modified DeleteSave Command.
 + Modified the debug menu interface.
 + Updated House's Texture and Model.
 + Updated Beet's textures.
@@ -58,6 +58,7 @@
 
 ## Room Makers
 
++ RELEASED THE GAME ON GOOGLE PLAY STORE!
 + Added the tag system, together with little icon indicators for the current room's tag.
 + Added the labeler, an item to change the current room's tag, together with its UI.
 + Added a sledgehammer, used to destroy and open locked doors
@@ -70,6 +71,15 @@
 + Added 3x1 furnitures to the system.
 + Added a "music tension" system.
 + Added the ability to place a little piece of tape over the speaker, muffling the sound.
++ Added an entire new mechanic: Kits!
++ Added a box for each size of furniture, used when a furniture that requires a kit is placed without a kit below it.
++ Added indicators over the boxes that show what kit it needs.
++ Added the kits to the shop, and a 3% possibility of getting a kit instead of a furniture.
++ Added an entire new mechanic: Stacking! As of the first version of the game, the only stackable item is the book, over the bookshelf.
++ Added non-intrusive ads! (Yeah, we have to eat too, yk?).
++ Added a restock machine to the shop.
++ Added sound effects for the restock machine.
++ Added the ability to skip the tutorial by pressing start during it.
 + Changed the gameplay music! Now we have three tracks that can loop up to three times each!
 + Balanced room's prices.
 + Balanced scoring in general.
@@ -81,6 +91,9 @@
 + Fixed the shop's rug colission.
 + Fixed a bug where the furniture would change languages when picking it back up.
 + Fixed a movement animation bug, the player would keep walking when you were in edit mode in some occasions.
++ Fixed a bug with the pizza box and the raygun.
++ Fixed a rotation bug with the box kit indicators.
++ The kits are now visible when you're in edit mode, and your current furniture needs that kit.
 + Localization depending on the device's language.
 + Now objects shake a bit when you can't place them.
 + You can now put multiple top objects over a single Bottom object.
@@ -91,4 +104,6 @@
   + An editor for the probabilities per tag, also using an csv file.
   + A tool to create and edit 4-color palettes.
 + Revamped the spawn system, now using probabilities per tag.
++ Redone the tutorial on its entirety.
 + Redone how the items work, an entire under the hood change.
++ Removed ??? from the furniture rotation.
