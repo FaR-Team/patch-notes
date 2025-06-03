@@ -3,6 +3,7 @@ layout: home
 title: Dev Patch Notes
 ---
 
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 <div class="hero-section">
   <h1>Development Updates</h1>
   <p>Latest patch notes and development progress for FARMOXEL and Room Makers</p>
