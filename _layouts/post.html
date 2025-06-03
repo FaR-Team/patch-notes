@@ -1,34 +1,49 @@
 ---
 layout: default
 ---
-<link href="/css/override.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<header class="site-header">
+  <div class="header-container">
+    <a href="{{ site.baseurl }}/" class="site-title">FaR Team Devlog</a>
+    <nav class="site-nav">
+      <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
+      <a href="{{ site.baseurl }}/archive" class="nav-link">Archive</a>
+      <a href="https://github.com/FaR-Team" class="nav-link" target="_blank">GitHub</a>
+    </nav>
+  </div>
+</header>
 
 <article class="patch-notes" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="patch-header">
-    <h1 class="patch-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <div class="patch-meta">
-      <time class="release-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        Released: {{ page.date | date: date_format }}
-      </time>
-      {% if page.build_number %}
-      <span class="build-number">Build: {{ page.build_number }}</span>
-      {% endif %}
+  <div class="container">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <div class="post-meta">
+        <time class="release-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          Released: {{ page.date | date: date_format }}
+        </time>
+        {% if page.build_number %}
+        <span class="build-number">Build: {{ page.build_number }}</span>
+        {% endif %}
+      </div>
+    </header>
+
+    <div class="share-links">
+      {% include sharelinks.html %}
     </div>
-  </header>
 
-  <div class="share-links">
-    {% include sharelinks.html %}
-  </div>
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
+    </div>
 
-  <div class="patch-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-  <div class="patch-navigation">
-    {% include navlinks.html %}
+    <div class="patch-navigation">
+      {% include navlinks.html %}
+    </div>
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<footer class="site-footer">
+  <p>&copy; 2024 FaR Team. Game development updates and patch notes.</p>
+</footer>

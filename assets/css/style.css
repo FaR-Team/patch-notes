@@ -213,11 +213,28 @@ body {
 .post-meta {
   color: var(--text-muted);
   font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.release-date::before {
+  content: "🚀";
+  margin-right: 0.5rem;
+}
+
+.build-number {
+  background: var(--bg-tertiary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
 }
 
 .post-content {
   color: var(--text-secondary);
   line-height: 1.8;
+  margin: 2rem 0;
 }
 
 .post-content h1,
@@ -258,17 +275,17 @@ body {
   color: var(--text-secondary);
 }
 
-.post-content li::marker {
-  color: var(--accent-green);
+.post-content ul li {
+  list-style: none;
+  position: relative;
 }
 
 .post-content ul li::before {
   content: "▸";
   color: var(--accent-green);
   font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+  position: absolute;
+  left: -1.5rem;
 }
 
 .post-content p {
@@ -304,6 +321,124 @@ body {
   margin: 1rem 0;
   color: var(--text-muted);
   font-style: italic;
+}
+
+/* Share Links */
+.share-section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.share-label {
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.share-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.share-btn:hover {
+  background: var(--border);
+  color: var(--text-primary);
+}
+
+.share-btn.twitter:hover {
+  background: #1da1f2;
+  color: white;
+}
+
+.share-btn.linkedin:hover {
+  background: #0077b5;
+  color: white;
+}
+
+.share-btn.email:hover {
+  background: var(--accent-green);
+  color: white;
+}
+
+/* Post Navigation */
+.post-navigation {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.nav-link-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+.nav-link-item:hover {
+  border-color: var(--accent-blue);
+  background: var(--bg-tertiary);
+}
+
+.nav-prev {
+  justify-content: flex-start;
+}
+
+.nav-next {
+  justify-content: flex-end;
+}
+
+.nav-arrow {
+  font-size: 1.2rem;
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+.nav-content {
+  margin: 0 1rem;
+}
+
+.nav-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav-title {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 0.25rem;
 }
 
 /* Archive Link */
@@ -386,6 +521,20 @@ body {
   .post-title {
     font-size: 2rem;
   }
+  
+  .nav-links {
+    grid-template-columns: 1fr;
+  }
+  
+  .share-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .share-buttons {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 480px) {
@@ -404,6 +553,14 @@ body {
   .nav-link {
     padding: 0.5rem;
     font-size: 0.9rem;
+  }
+  
+  .nav-link-item {
+    padding: 0.75rem;
+  }
+  
+  .nav-content {
+    margin: 0 0.5rem;
   }
 }
 
