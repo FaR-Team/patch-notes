@@ -14,4 +14,11 @@
 + Added localization to the labeler.
 + Added a Tag Notification that shows the current room's tag when entering a new room
 + Added a credit screen to the menu
-+ Improved the placing system so now Wall Objects are placed as boxes if they're not against a wall
++ Added a confirmation screen for tutorial skipping.
++ Added a furniture info menu when pressing the start button.
++ Improved the placing system so now Wall Objects are placed as boxes if they're not against a wall.
++ Updated our csv tool to reflect the new fields in the data.
++ Made a devtool to quickly change the build parameters (WIP)
++ Made a devtool to visualize the furniture relationships.
++ Made a devtool to analyze the game's balance.
++ Made a devtool to manage the game's localizations.
