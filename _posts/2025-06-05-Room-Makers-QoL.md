@@ -16,7 +16,11 @@
 + Added a credit screen to the menu
 + Added a confirmation screen for tutorial skipping.
 + Added a furniture info menu when pressing the start button.
++ Added a sprite for the furniture info menu prompt.
++ Added descriptions to all the furniture.
++ Added google play's leaderboard.
 + Improved the placing system so now Wall Objects are placed as boxes if they're not against a wall.
++ Improved the game over screen.
 + Updated our csv tool to reflect the new fields in the data.
 + Made a devtool to quickly change the build parameters (WIP)
 + Made a devtool to visualize the furniture relationships.
