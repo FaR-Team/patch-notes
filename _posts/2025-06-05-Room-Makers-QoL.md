@@ -8,6 +8,7 @@
 + Fixed door's shake, same as above, plus made it shakier.
 + Fixed? an issue with the main menu, we actually just told one of our programmers not to use the enter button anymore.
 + Fixed wall object's indicator when boxed not showing up.
++ Fixed a bug where the correct localization of the tutorial skip prompt didn't show up.
 + Added a preview of the kit placement during the tutorial with a cutesy animation.
 + Added an entire main menu!
 + Added localization to the main menu.
