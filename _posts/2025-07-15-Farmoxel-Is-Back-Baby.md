@@ -18,3 +18,4 @@
 + Added pixel perfect shadows to our shader.
 + Added some visual feedback for when you don't have enough money to buy what's in your shopping cart.
 + Added an inventory button to the Shopkeeper's UI.
++ Made some improvements to the game's day-night lighting calculation and overall sun arc.
