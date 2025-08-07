@@ -10,6 +10,10 @@
 + Fixed the shopkeeper's UI sizing.
 + Fixed the player's gold positioning on the shopkeeper's UI.
 + Fixed a visual bug on the multiplier buttons.
++ Fixed a bug where crops had a prompt UI when they shouldn't.
++ Fixed a bug where tree's rotation wouldn't stay when reloading the scene.
++ Fixed a bug where the shovel didn't cast a shadow (And replaced the placeholder model)
++ Fixed a bug where the hoe would animate and consume energy even when you weren't able to plow.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Now the multipliers (x5, x10) are accessible via shift and control respectively.
