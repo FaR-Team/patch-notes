@@ -27,3 +27,9 @@
 + Made a devtool to visualize the furniture relationships.
 + Made a devtool to analyze the game's balance.
 + Made a devtool to manage the game's localizations.
+
+### v1.1.1
+
++ Fixed a bug where the coconut was a bottom object instead of a top object.
++ Replaced the main menu music with a new theme by Maxi Morales!
++ Made the scaler/game boy projection (almost) pixel perfect.
