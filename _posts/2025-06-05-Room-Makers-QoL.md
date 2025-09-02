@@ -33,3 +33,14 @@
 + Fixed a bug where the coconut was a bottom object instead of a top object.
 + Replaced the main menu music with a new theme by Maxi Morales!
 + Made the scaler/game boy projection (almost) pixel perfect.
+
+### v1.1.2
+
++ Modified some furniture names on spanish, they were overlapping with the bottom door.
++ All doors now shake when you're unable to buy a room, not only the ones on the main room.
++ Animated furniture now animate when you unpack it.
++ Kits are now invisible when below furniture.
++ Fixed a slight misplacement of the money text when looking at a door.
++ Fixed a slight misplacement of the player money text.
++ Now money shakes when you cannot buy something.
++ You can't place a book over an unboxed bookshelf anymore.
