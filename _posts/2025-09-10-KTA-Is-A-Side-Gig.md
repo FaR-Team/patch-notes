@@ -1,6 +1,6 @@
 # KTA is a game we made. Fr
 
-## KTA 6.6.9 (Not yet launched)
+## KTA 6.7.0 (Not yet launched)
 
 #### We haven't updated KTA since... it came out (yeah. ik.), so we're making a bunch of QOL and aesthetical improvements to the game since it doesn't live up to our current standars.
 
@@ -9,3 +9,5 @@
 + Resized the restart invisible button to be the entire width of the screen.
 + Reworked the UI for a cleaner look, replacing legacy elements (We weren't even using TMPro???).
 + Added an animation to the loading text.
++ Bumped unity version to 2022.3.62f1
++ Now the world is double sided. 
