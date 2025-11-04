@@ -31,5 +31,6 @@
 + Added the fertilizer's model.
 + Added the fertilizer as a concept.
 + Added particles with physics to the fertilizer.
++ Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Made some improvements to the game's day-night lighting calculation and overall sun arc.
-+ The fertilizer now "spills" content when it's rotated.
++ Updated the game's icon.
