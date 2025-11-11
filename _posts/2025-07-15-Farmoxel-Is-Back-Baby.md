@@ -35,3 +35,4 @@
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Made some improvements to the game's day-night lighting calculation and overall sun arc.
 + Updated the game's icon.
++ Updated the debug console's commands to use names instead of ints.
