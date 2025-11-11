@@ -18,6 +18,7 @@
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
++ Changed selling boxes models.
 + Revamped the telekinesis' physics.
 + Now the multipliers (x5, x10) are accessible via shift and control respectively.
 + Now the game's UI disappears when you open the shop.
