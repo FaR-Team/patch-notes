@@ -13,6 +13,7 @@
 + Added 8 new color palettes! (And updated some old ones)
 + Added a reset button (Pressing the on-off switch)
 + Added bulk import and checking if they're equal to our palette manager unity-addon.
++ Added an easter egg. (You can find it, I trust you.)
 + Upgraded google play's plugins.
 + Upgraded the Dpad's usability by forcing a 4-way-only detection & assumption.
 + Renamed choppingboard because it was too long.
