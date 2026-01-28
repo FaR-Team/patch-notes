@@ -11,6 +11,7 @@
 + Added a full landscape orientation to the game!
 + Added a landscape layout, with a cute sticker and everything.
 + Added 8 new color palettes! (And updated some old ones)
++ Added a reset button (Pressing the on-off switch)
 + Upgraded google play's plugins.
 + Upgraded the Dpad's usability by forcing a 4-way-only detection & assumption.
 + Renamed choppingboard because it was too long.
