@@ -16,6 +16,8 @@
 + Upgraded google play's plugins.
 + Upgraded the Dpad's usability by forcing a 4-way-only detection & assumption.
 + Renamed choppingboard because it was too long.
++ Now the "DMG" color palette it's only used in the main room.
++ Now we're using a palette database instead of having a list of palettes on each scene, and each screen.
 + Fixed a bug with the main menu's localization.
 + Fixed a bug with the bookshelf's stacking.
 + Fixed a bug where the first placement bonus would be given multiple times.
