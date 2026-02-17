@@ -15,6 +15,7 @@
 + Fixed a bug where the shovel didn't cast a shadow (And replaced the placeholder model)
 + Fixed a bug where the hoe would animate and consume energy even when you weren't able to plow.
 + Fixed a weird rain bug where the droplets wouldn't render on some parts of the farm.
++ Fixed a bug where shift clicking an item in the hotbar wouldn't send it to the inventory.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
