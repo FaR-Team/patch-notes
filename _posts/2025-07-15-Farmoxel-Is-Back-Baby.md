@@ -16,6 +16,8 @@
 + Fixed a bug where the hoe would animate and consume energy even when you weren't able to plow.
 + Fixed a weird rain bug where the droplets wouldn't render on some parts of the farm.
 + Fixed a bug where shift clicking an item in the hotbar wouldn't send it to the inventory.
++ Fixed a bug where you couldn't esc out of the binding menu.
++ Fixed the resolution dropdown not working.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
@@ -33,7 +35,14 @@
 + Added the fertilizer's model.
 + Added the fertilizer as a concept.
 + Added particles with physics to the fertilizer.
++ Added display options.
++ Added a reset default bindings option.
++ Added a Mute on Background option.
++ Added the Storage House's model.
++ Added the Storage Table's model.
++ Now you can press esc while rebinding to cancel the rebind.
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Made some improvements to the game's day-night lighting calculation and overall sun arc.
 + Updated the game's icon.
 + Updated the debug console's commands to use names instead of ints.
++ Updated the range of the telekinesis ray.
