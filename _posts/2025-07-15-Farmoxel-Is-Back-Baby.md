@@ -18,6 +18,9 @@
 + Fixed a bug where shift clicking an item in the hotbar wouldn't send it to the inventory.
 + Fixed a bug where you couldn't esc out of the binding menu.
 + Fixed the resolution dropdown not working.
++ Fixed the positioning of the house's model.
++ Fixed a bug with the shader's vertical shadows, causing something called "Shadow Acne".
++ Fixed diagonal movement not being normalized.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
@@ -40,6 +43,9 @@
 + Added a Mute on Background option.
 + Added the Storage House's model.
 + Added the Storage Table's model.
++ Added the Storage Rack's model.
++ Added a new devUtil developed by one of our ex members: Vlyx's notes - They are quite literally notes on the unity editor.
++ Added two new devUtils: FaR-Folders and FaR-Hierarchy.
 + Now you can press esc while rebinding to cancel the rebind.
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Made some improvements to the game's day-night lighting calculation and overall sun arc.
