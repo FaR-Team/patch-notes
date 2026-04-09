@@ -4,7 +4,7 @@
 
 + Fixed the farm's door collision.
 + Fixed a bug that caused trees to deactivate once they grew a little.
-+ Fixed a bug where the outline created a black line on the ground. (Ahre)
++ Fixed a bug where the outline created a black line on the ground. (NOt really, old me, you just avoided it, it's still an issue...)
 + Fixed the water's shader, and made it look more in line to our main shader.
 + Fixed a bug where... There were two maps, just like, the entire farm was duplicated, for no real reason.
 + Fixed the shopkeeper's UI sizing.
@@ -25,6 +25,7 @@
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
 + Changed selling boxes models.
++ Changed all the animations to use FBX instead of .Blend to remove blender dependency. (And better linux compatability)
 + Revamped the telekinesis' physics.
 + Now the multipliers (x5, x10) are accessible via shift and control respectively.
 + Now the game's UI disappears when you open the shop.
@@ -46,9 +47,11 @@
 + Added the Storage Rack's model.
 + Added a new devUtil developed by one of our ex members: Vlyx's notes - They are quite literally notes on the unity editor.
 + Added two new devUtils: FaR-Folders and FaR-Hierarchy.
++ Added a multi-cell "Footprint" system (Basically grid size).
 + Now you can press esc while rebinding to cancel the rebind.
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Made some improvements to the game's day-night lighting calculation and overall sun arc.
 + Updated the game's icon.
 + Updated the debug console's commands to use names instead of ints.
 + Updated the range of the telekinesis ray.
++ Updated the entire system behind the grid and the grid ghost.
