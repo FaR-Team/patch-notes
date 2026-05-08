@@ -17,18 +17,20 @@
 + Fixed a weird rain bug where the droplets wouldn't render on some parts of the farm.
 + Fixed a bug where shift clicking an item in the hotbar wouldn't send it to the inventory.
 + Fixed a bug where you couldn't esc out of the binding menu.
-+ Fixed the resolution dropdown not working.
++ Fixed the resolution drop-down not working.
 + Fixed the positioning of the house's model.
 + Fixed a bug with the shader's vertical shadows, causing something called "Shadow Acne".
 + Fixed diagonal movement not being normalized.
 + Fixed double sampling of the shadow cast in the shader.
 + Fixed the multiply texture's unused calculation.
++ Fixed the grid being misplaced (it had a 0.5 offset on both X and Z).
++ Fixed the underwater cliff's having collisions.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
 + Changed selling boxes models.
-+ Changed all the animations to use FBX instead of .Blend to remove blender dependency. (And better linux compatability)
-+ Completely remade the map's colissions.
++ Changed all the animations to use FBX instead of .Blend to remove blender dependency. (And better linux compatibility)
++ Completely remade the map's collisions.
 + Revamped the telekinesis' physics.
 + Now the multipliers (x5, x10) are accessible via shift and control respectively.
 + Now the game's UI disappears when you open the shop.
@@ -52,6 +54,9 @@
 + Added two new devUtils: FaR-Folders and FaR-Hierarchy.
 + Added a multi-cell "Footprint" system (Basically grid size).
 + Added multi-compile instancing.
++ Added a debris spawn system.
++ Added 10 debris models!
++ Added the possibility for debris to spawn when days pass by.
 + Now you can press esc while rebinding to cancel the rebind.
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Now static objects don't cast shadows. (The map, for now)
@@ -60,6 +65,6 @@
 + Updated the game's icon.
 + Updated the debug console's commands to use names instead of ints.
 + Updated the range of the telekinesis ray.
-+ Updated the shader's cbuffer calculations.
++ Updated the shader's Cbuffer calculations.
 + Updated the entire system behind the grid and the grid ghost.
-+ Updated the storage house's colission to an optimized one.
++ Updated the storage house's collision to an optimized one.
