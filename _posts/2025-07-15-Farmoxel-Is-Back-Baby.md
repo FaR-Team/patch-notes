@@ -25,6 +25,9 @@
 + Fixed the multiply texture's unused calculation.
 + Fixed the grid being misplaced (it had a 0.5 offset on both X and Z).
 + Fixed the underwater cliff's having collisions.
++ Fixed trees ignoring debris when spawning.
++ Fixed the [Big Mean Bug](http://blog.farteam.com.ar/2023/05/15/May-15th-The-big-mean-bug-update!.html) again!
++ Fixed the sun rotation.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
@@ -55,7 +58,10 @@
 + Added a multi-cell "Footprint" system (Basically grid size).
 + Added multi-compile instancing.
 + Added a debris spawn system.
++ Added per category weight for the spawn of debris.
++ Added rules to the debris' spawn system.
 + Added 10 debris models!
++ Added debris to the savesystem.
 + Added the possibility for debris to spawn when days pass by.
 + Now you can press esc while rebinding to cancel the rebind.
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
@@ -68,3 +74,6 @@
 + Updated the shader's Cbuffer calculations.
 + Updated the entire system behind the grid and the grid ghost.
 + Updated the storage house's collision to an optimized one.
++ Updated some placeholder materials.
++ Updated the lightning.
++ Updated the hotbar's sprites.
