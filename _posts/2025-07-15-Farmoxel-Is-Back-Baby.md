@@ -28,6 +28,11 @@
 + Fixed trees ignoring debris when spawning.
 + Fixed the [Big Mean Bug](http://blog.farteam.com.ar/2023/05/15/May-15th-The-big-mean-bug-update!.html) again!
 + Fixed the sun rotation.
++ Fixed a display bug with the gold.
++ Fixed the beet's sellbox sign position.
++ Fixed tools slot sprite not updating when using a joystick.
++ Fixed gridghost's position on screen by centering it using the screen size, and not the mouse.
++ Fixed shadow's misalignment on the tiny path chunk.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
@@ -35,8 +40,10 @@
 + Changed all the animations to use FBX instead of .Blend to remove blender dependency. (And better linux compatibility)
 + Completely remade the map's collisions.
 + Revamped the telekinesis' physics.
++ Reworked the pause menu with new assets.
 + Now the multipliers (x5, x10) are accessible via shift and control respectively.
 + Now the game's UI disappears when you open the shop.
++ Now the character movement and camera locks when using a tool.
 + Deleted some unnecessary text from the cart's total.
 + Added pixel perfect shadows to our shader.
 + Added some visual feedback for when you don't have enough money to buy what's in your shopping cart.
@@ -63,6 +70,10 @@
 + Added 10 debris models!
 + Added debris to the savesystem.
 + Added the possibility for debris to spawn when days pass by.
++ Added a selection tile when using the shovel.
++ Added a cute voxel explosion FX when using the shovel.
++ Added sprites for the tools. (Hoe, Shovel & Bucket).
++ Added a carousel animation for the tool's hotbar.
 + Now you can press esc while rebinding to cancel the rebind.
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Now static objects don't cast shadows. (The map, for now)
@@ -77,3 +88,5 @@
 + Updated some placeholder materials.
 + Updated the lightning.
 + Updated the hotbar's sprites.
++ Updated the shovel's model.
++ Updated some player's controller settings.
