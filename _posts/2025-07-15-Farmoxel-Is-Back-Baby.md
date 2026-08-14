@@ -32,7 +32,8 @@
 + Fixed the beet's sellbox sign position.
 + Fixed tools slot sprite not updating when using a joystick.
 + Fixed gridghost's position on screen by centering it using the screen size, and not the mouse.
-+ Fixed shadow's misalignment on the tiny path chunk.
++ Fixed a shadow misalignment bug in the tiny chunk path.
++ Fixed a bug where the dirt wouldn't unregister from the grid when harvesting.
 + Changed the shopkeeper's item list from a scroll view to a page view.
 + Changed the functionality of the accept and reject buttons in the shopkeeper's UI.
 + Changed all the dirt's textures.
@@ -41,6 +42,8 @@
 + Completely remade the map's collisions.
 + Revamped the telekinesis' physics.
 + Reworked the pause menu with new assets.
++ Reworked item's use implementation to be polymorphic.
++ Reworked the implementation of the models on hand.
 + Now the multipliers (x5, x10) are accessible via shift and control respectively.
 + Now the game's UI disappears when you open the shop.
 + Now the character movement and camera locks when using a tool.
@@ -74,9 +77,11 @@
 + Added a cute voxel explosion FX when using the shovel.
 + Added sprites for the tools. (Hoe, Shovel & Bucket).
 + Added a carousel animation for the tool's hotbar.
++ Added SFX to the chest.
 + Now you can press esc while rebinding to cancel the rebind.
 + Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Now static objects don't cast shadows. (The map, for now)
++ Now the player is a prefab (About time).
 + Made some improvements to the game's day-night lighting calculation and overall sun arc.
 + Combined the meshes of each section of the map to heavily improve performance.
 + Updated the game's icon.
@@ -90,3 +95,7 @@
 + Updated the hotbar's sprites.
 + Updated the shovel's model.
 + Updated some player's controller settings.
++ Updated the shader with some improvements and additions.
++ Updated the outline to better fit the initial vision.
++ Updated the dirt detection.
++ Updated the third person camera (minigames).
