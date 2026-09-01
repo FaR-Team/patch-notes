@@ -4,7 +4,6 @@
 
 #### New Features & Content
 
-+ Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
 + Added a fishing minigame. :D
 + Added the spear's model.
 + Added the perch's model.
@@ -24,6 +23,10 @@
 + Added a selection tile when using the shovel.
 + Added a cute voxel explosion FX when using the shovel.
 + Added SFX to the chest.
++ Added the ability to rotate items held with telekinesis.
++ Added a new type of item that spanws an object in the world.
++ Now particles fall from the fertilizer depending on how you handle it with the telekinesis.
++ Now the fertilizer actually fertilizes the dirt if we throw particles over them.
 
 #### Visuals, Shaders & Performance
 
@@ -48,6 +51,7 @@
 + Updated the shovel's model.
 + Updated the shader with some improvements and additions.
 + Updated the outline to better fit the initial vision.
++ Updated the position of the chest and the cart.
 
 #### UI, Controls & QoL
 
@@ -57,6 +61,8 @@
 + Now the multipliers (x5, x10) are accessible via shift and control respectively.
 + Now the game's UI disappears when you open the shop.
 + Now the character movement and camera locks when using a tool.
++ Now you can press esc while rebinding to cancel the rebind.
++ Now you can use the cart on slopes.
 + Deleted some unnecessary text from the cart's total.
 + Added some visual feedback for when you don't have enough money to buy what's in your shopping cart.
 + Added an inventory button to the Shopkeeper's UI.
@@ -65,10 +71,10 @@
 + Added a Mute on Background option.
 + Added sprites for the tools. (Hoe, Shovel & Bucket).
 + Added a carousel animation for the tool's hotbar.
-+ Now you can press esc while rebinding to cancel the rebind.
 + Updated the hotbar's sprites.
 + Updated some player's controller settings.
 + Updated the third person camera (minigames).
++ Some spear and fishing minigame improvements.
 
 #### DevTools & Systems
 
@@ -113,3 +119,4 @@
 + Fixed tools slot sprite not updating when using a joystick.
 + Fixed gridghost's position on screen by centering it using the screen size, and not the mouse.
 + Fixed a bug where the dirt wouldn't unregister from the grid when harvesting.
++ Fixed a bug where the fertilizer would randomly rotate and move on its own when dropped on the ground with a non-flat angle.
